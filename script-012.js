@@ -19,6 +19,7 @@
 // console.log(mxicar);
 
 // flat():      its used to return element of all array and sub-array.
+
 // let myArr = [1, 2, 3, [4, 5], 6, [7, 8, [9, [10, 11], 12], 13], 15];
 // myArr = myArr.flat(Infinity);
 // console.log(myArr);
@@ -26,3 +27,10 @@
 // isArray():   its used to check passed argument is array or not and its return boolean value.
 // from():      its used to make passed argument in array;
 // of():        its return new array of passed element.
+
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
+
+// console.log(Array.of(score1, score2, score3))
+//this returns a new array containing all the element..
